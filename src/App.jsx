@@ -22,8 +22,8 @@ function App() {
 
     <Route path='/user' element={<LayoutCLient/>}>
     <Route path='/user/dashboard' element={<Navigate to="/user"/>}/>
-    <Route path='/user'element={<Signup/>}/>
-    <Route path='/user/dashboard/:id' element={<Dashboard/>}/>
+    <Route path='/user/signup'element={<Signup/>}/>
+    <Route path='/user/dashboard/:email' element={<Dashboard/>}/>
     </Route>
   </Routes>
 
